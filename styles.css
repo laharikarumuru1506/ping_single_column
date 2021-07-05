@@ -1,0 +1,68 @@
+.section{
+	position: absolute;
+	top: 15%;
+	left: 30%;
+	text-align: center;
+}
+.lead{
+	font-size: 40px !important;
+	color: grey;
+}
+.section strong{
+	color: black;
+	font-weight: bold;
+}
+.form-row{
+	width: 90%;
+}
+.form-row input,.btn-bg{
+	border-radius: 50px;
+	padding: 20px;
+}
+.btn-bg{
+	background-color:#514ce1;
+	padding: 9px;
+	color: white;
+}
+.btn-bg:hover{
+	color: white;
+}
+#label-text{
+	position: absolute;
+	left: 10%;
+	color: indianred;
+	visibility: hidden;
+}
+.photo{
+	width: 100%;
+	max-width: 500px;
+}
+.icon-1,.icon-2,.icon-3{
+	border: 1px solid #e0e0e0;
+	border-radius: 50%;
+    padding: 10px;
+    color: #514ce1;
+}
+.icon-1{
+	padding: 11px 15px;
+}
+.icon-3{
+	padding: 10px 12px;
+}
+.icon-1:hover,.icon-2:hover,.icon-3:hover{
+ background-color: #514ce1;
+ color: white;
+}
+@media screen and (max-width: 992px){
+.section{
+	position: absolute;
+	top: 15%;
+	left: 20%;
+	text-align: center;
+}	
+}
+@media screen and (max-width: 500px){
+	.section{
+		margin: 0px 20px 0px -40px;
+	}
+}
